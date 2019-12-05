@@ -55,10 +55,10 @@ $ git clone https://github.com/Marten4n6/EvilOSX
 $ cd EvilOSX
 
 # Install dependencies required by the server
-$ sudo pip install -r requirements.txt
+$ sudo pip3 install -r requirements.txt
 
 # Start the GUI
-$ python start.py
+$ python3 start.py
 
 # Lastly, run a built launcher on your target(s)
 ```
@@ -70,10 +70,10 @@ $ python start.py
 There's also a CLI for those who want to use this over SSH:
 ```bash
 # Create a launcher to infect your target(s)
-$ python start.py --builder
+$ python3 start.py --builder
 
 # Start the CLI
-$ python start.py --cli --port 1337
+$ python3 start.py --cli --port 1337
 
 # Lastly, run a built launcher on your target(s)
 ```
